@@ -22,6 +22,7 @@ int checkPrimeRec(int n){
         return 1;
 
     // Recursive Relation
+    // Changes
 
     return checkPrimeRec(n-1);
 }
